@@ -29,3 +29,35 @@
 # /
 # Sample Output 3:
 # 0.5
+
+# print("this algorythm is an example of simple calcualtor. You'll be asked to input three ")
+
+
+try:
+    first_num = float(input("Input fitst number: "))
+    second_num = float(input("Input second number: "))
+    operation = input("Input one of the supported operations which are the following +, -, /, *, mod, pow, div ")
+    if operation == '+':
+        print(first_num+second_num)
+    elif operation == '-':
+        print(first_num-second_num)
+    elif operation == '/':
+        if second_num == 0:
+            print('divide by zero error!')
+        else:
+            print(first_num/second_num)
+    elif operation == '*':
+        print(first_num*second_num)
+    elif operation == 'mod':
+        if second_num == 0:
+            print('divide by zero error!')
+        else:
+            print(first_num%second_num)
+    elif operation == 'pow':
+        print(first_num**second_num)
+    elif operation == 'div':
+        print(first_num//second_num)
+except:
+    print("Wrong input!")
+
+
