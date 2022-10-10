@@ -34,9 +34,9 @@
 
 
 try:
-    first_num = float(input("Input fitst number: "))
+    first_num = float(input("Input first number: "))
     second_num = float(input("Input second number: "))
-    operation = input("Input one of the supported operations which are the following +, -, /, *, mod, pow, div ")
+    operation = input("Input one of the supported operations which are the following: +, -, /, *, mod, pow, div: ")
     if operation == '+':
         print(first_num+second_num)
     elif operation == '-':
