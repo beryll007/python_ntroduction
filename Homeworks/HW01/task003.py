@@ -11,11 +11,11 @@ try:
     y = int(input('Input position on Y-axis: '))
     if x == 0 or y == 0:
         print('Try a non-zero values for coordinates')
-    elif (x>0  and y > 0):
+    elif (x > 0  and y > 0):
         print('The point locates in the 1st quarter')
-    elif (x<0 and y > 0):
+    elif (x < 0 and y > 0):
         print('The point locates in the 2nd quarter')
-    elif (x<0 and y<0):
+    elif (x < 0 and y < 0):
         print('The point locates in the 3d quarter')
     else:
         print('The point locates in the 4th quarter')
